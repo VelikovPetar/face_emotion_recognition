@@ -54,7 +54,7 @@ def detect_facial_features(image, is_face_aligned=False):
     :return: list of tuples (x, y) representing the coordinates of the facial features
     :raises FaceNotDetectedException if the face detection fails
     """
-    greyscale = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    greyscale = image
     h, w = greyscale.shape
 
     if is_face_aligned:
