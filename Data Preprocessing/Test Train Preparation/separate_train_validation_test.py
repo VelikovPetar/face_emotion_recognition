@@ -1,4 +1,3 @@
-# Full data-set
 import random
 
 import pandas
